@@ -1,7 +1,12 @@
 # README
+## Instructions
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+
+'code'
+rails g controller Calculator calculate sum minus division multiply
+
+
+This was done in rails 6.1 using bitnami stack: [info here] (https://bitnami.com/stack/ruby)
 
 Things you may want to cover:
 
