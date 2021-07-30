@@ -10,5 +10,5 @@ Commands used...
 - rails g controller Calculator calculate sum minus division multiply
 
 
-This was done in rails 6.1 using bitnami stack: {click here](https://bitnami.com/stack/ruby)
+This was done in rails 6.1 using bitnami stack: [click here](https://bitnami.com/stack/ruby)
 
