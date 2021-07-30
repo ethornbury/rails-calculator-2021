@@ -1,0 +1,35 @@
+<h1>Calculator#calculate</h1>
+<p>Find me in app/views/calculator/calculate.html.erb</p>
+
+<h1>Simple Calculator </h1>
+
+<%= form_tag("/sum", :method => "get") do %>
+    <%#= text_field_tag(:number1) %> <!-- these are coomented out to show that they are redundant -->
+    <%#= text_field_tag(:number2) %>
+    <%= submit_tag "+" %>
+<% end %>
+
+<!-- form_for vs form_tag would link to a related model 'person' -->
+<%#= form_for :person do |f| %>
+  <!-- First name: --> <%#= f.text_field :first_name %><br />
+  <!-- Last name : --><%#= f.text_field :last_name %><br />
+  <!-- Admin?    : --><%#= f.check_box :admin %><br />
+  <%#= f.submit %>
+<%# end %>
+
+
+<%= form_tag '/minus' do %>
+    <%= text_field_tag :number1 %>
+    <%= text_field_tag :number2 %>
+    <%= submit_tag " - " %>
+<% end %>
+<%= form_tag '/division' do %>
+    <%= text_field_tag :number1 %>
+    <%= text_field_tag :number2 %>
+    <%= submit_tag " / " %>
+<% end %>
+<%= form_tag '/multiplication' do %>
+    <%= text_field_tag :number1 %>
+    <%= text_field_tag :number2 %>
+    <%= submit_tag " * " %>
+<% end %>
